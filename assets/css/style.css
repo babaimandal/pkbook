@@ -30,12 +30,9 @@ a{
     background-position: center;
     background-size: cover;
     width: 100%;
-    /* height: 670px; */
     padding-block-end: 27px;
 }
 .banner-warpper .logo-block a {
-    /* width: 405px; */
-    /* height: 323px; */
     width: 200px;
 }
 .banner-warpper .logo-block a img{
@@ -174,13 +171,26 @@ footer .all-rights span {
 }
 footer .social-media ul li {
     background: #F19105;
-background: linear-gradient(86deg, rgba(241, 145, 5, 1) 0%, rgba(243, 181, 75, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(86deg, rgba(241, 145, 5, 1) 0%, rgba(243, 181, 75, 1) 50%, rgba(237, 221, 83, 1) 100%);
     border-radius: 50%;
     width: 4%;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+footer .social-media ul li:hover {
+    background: #130260;
+    background: linear-gradient(86deg, rgb(30, 1, 116) 0%, rgb(105, 69, 182) 50%, rgba(14, 4, 121, 0.564) 100%);
+    transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-10px);
+}
+
+footer .social-media ul li:hover  .shake{
+    animation: shake 0.4s;
 }
 footer .social-media ul li a img {
     width: 44%;
