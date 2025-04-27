@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1400px){
+    .get-instant-wp {
+        width: 47%;
+    }
+    .get-instant-wp .text a{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .get-instant-wp .text a {
+        font-size: 22px;
+        padding: 0;
+    }
+    .get-instant-wp .whatsapp-icon a img{
+        width: 100%;
+    }
+    .text-center {
+        text-align: start!important;
+    }
+}
+@media only screen and (max-width: 999px){
+    .get-instant-wp .text a {
+        font-size: 17px;
+        padding: 0;
+    }
+    .welcome-to-pkbook-wrapper .text-block p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .welcome-to-pkbook-wrapper .image-block {
+        height: 424px;
+        
+    }
+    .welcome-to-pkbook-wrapper .text-block h2 {
+        font-size: 37px;
+        font-weight: 700;
+    
+    }
+    .our-platform-offer-wrapper h2{
+        font-size: 37px;
+        font-weight: 700;
+    }
+    footer .social-media ul li {
+        width: 7%;
+    }
+    .our-platform-offer-wrapper .our-platform-inner-box .logo-block {
+        padding-block: 23px;
+        padding-block-end: 13px;
+        padding-block-start: 12px;
+    }
+    .our-platform-inner-box .description-block span {
+        font-size: 20px;
+        padding-block-end: 3px;    
+    }
+    .our-platform-inner-box .description-block a {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner-warpper .get-instant-wp .whatsapp-icon {
+        
+        text-align: center;
+    }
+    .get-instant-wp .whatsapp-icon a img {
+        width: 85%;
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    .get-instant-wp .text a {
+        line-height: 19px;
+    }
+    .get-instant-wp {
+        width: 67%;
+    }
+    .banner-warpper .logo-block a {
+        width: 131px;
+    }
+    .our-platform-offer-wrapper .our-platform-inner-box {
+
+        width: 100%;
+    }
+    footer .social-media ul li {
+        width: 10%;
+    }
+    footer .logo-block a img {
+        width: 33%;
+    }
+    footer {
+       padding-block: 36px;
+    }
+    footer .all-rights {
+        margin-block: 5px;
+    } 
+    footer .all-rights span {
+        font-size: 18px;
+    }
+} 
+@media only screen and (max-width: 599px){
+    .welcome-to-pkbook-wrapper .image-block {
+        height: 250px;
+    }
+    .get-instant-wp .whatsapp-icon a img {
+        width: 60px;
+    }
+    .get-instant-wp {
+        margin-block-start: 118px;
+    }
+    .welcome-to-pkbook-wrapper {
+        margin-block-start: 29px;
+    }
+    .banner-warpper .logo-block a {
+        width: 84px;
+    }
+    .get-instant-wp .text a {
+        font-size: 15px;
+    }
+    .welcome-to-pkbook-wrapper .text-block p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .welcome-to-pkbook-wrapper .text-block h2 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .our-platform-offer-wrapper h2 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+    footer .social-media ul li {
+        width: 13%;
+    }
+    .our-platform-offer-wrapper h2 {
+        margin-block-start: 26px;
+        margin-block-end: 13px;
+        font-size: 28px;
+    }
+    .welcome-to-pkbook-wrapper .text-block h2{
+        margin-block-end: 13px;
+        font-size: 28px;
+    }
+    .our-platform-offer-wrapper .our-platform-inner-box .logo-block a img {
+        width: 53%;
+    }
+}
+@media only screen and (max-width: 399px){
+    
+    .get-instant-wp .whatsapp-icon a img {
+        width: 48px;
+    }
+
+}
+
+
+
+
+
+
+

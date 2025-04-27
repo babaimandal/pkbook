@@ -1,0 +1,235 @@
+:root{
+    --wp-button-bg-color    : #19A64E;
+    --heading-color         : #1A1A1B;
+
+}
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* =============== =============== ================ =================== */
+/* ================ ============== Banner === ============== ================ */
+.banner-warpper {
+    background-image: linear-gradient(84deg, rgb(0 0 0 / 83%), rgb(0 0 0 / 0%)), url(../images/post22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* height: 670px; */
+    padding-block-end: 27px;
+}
+.banner-warpper .logo-block a {
+    /* width: 405px; */
+    /* height: 323px; */
+    width: 200px;
+}
+.banner-warpper .logo-block a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-block-start: 25px;
+}
+.get-instant-wp .whatsapp-icon a img {
+    width: 70%;
+    padding-inline-start: 5px;
+}
+.get-instant-wp {
+    background-color: var(--wp-button-bg-color);
+    width: 39%;
+    margin: 0 auto;
+    border-radius: 9px;
+    padding-block: 5px;
+    margin-block-start: 344px;
+}
+.get-instant-wp .text a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+    padding-inline-end: 52px;
+}
+/* ================ ============== Welcome To pkbook === ============== ================ */
+.welcome-to-pkbook-wrapper{
+    margin-block-start: 99px;
+}
+.welcome-to-pkbook-wrapper .text-block h2 {
+    color: var(--heading-color);
+    font-size: 45px;
+    font-weight: 600;
+}
+.welcome-to-pkbook-wrapper .text-block p {
+    font-size: 23px;
+    color: var(--heading-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 48px;
+}
+.welcome-to-pkbook-wrapper .image-block{
+    height: 586px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #0033d9;
+    border-radius: 30px;
+}
+.welcome-to-pkbook-wrapper .image-block img {
+    border-radius: 30px;
+}
+
+
+
+/* ================ ============== our platform offer === ============== ================ */
+.our-platform-offer-wrapper h2 {
+    text-align: center;
+    font-family: inherit;
+    color: var(--heading-color);
+    font-size: 45px;
+    font-weight: 600;
+    margin-block-start: 50px;
+    margin-block-end: 30px;
+}
+.our-platform-offer-wrapper .our-platform-inner-box {
+    border-radius: 10px;
+    width: 95%;
+}
+.our-platform-offer-wrapper .our-platform-inner-box:hover .description-block a{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.our-platform-offer-wrapper .our-platform-inner-box .logo-block {
+    background-color: #0f1940;
+    /* padding-block: 44px; */
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-platform-offer-wrapper .our-platform-inner-box .logo-block a img {
+    width: 38%;
+}
+.our-platform-offer-wrapper .description-block {
+    background-color: #0D3C6A;
+    text-align: center;
+    padding-block-end: 18px;
+    padding-block-start: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.our-platform-inner-box .description-block span {
+    display: block;
+    color: #fff;
+    font-size: 23px;
+    font-family: inherit;
+    font-weight: 500;
+    padding-block-end: 12px;
+}
+.our-platform-inner-box .description-block a {
+    background-color: #0B4E87;
+    padding-inline: 30px;
+    padding-block: 9px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 400;
+    transition: 0.5s;
+}
+/* ================ ============== Footer === ============== ================ */
+footer {
+    background-image: linear-gradient(rgb(0 0 0 / 75%), rgb(0 0 0 / 72%)), url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-block: 100px;
+}
+footer .logo-block a img{
+    width: 20%;
+    padding-inline: 12px;
+    
+}
+footer .all-rights{
+    margin-block: 15px;
+}
+footer .all-rights span {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+footer .social-media ul li {
+    background: #F19105;
+background: linear-gradient(86deg, rgba(241, 145, 5, 1) 0%, rgba(243, 181, 75, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 50%;
+    width: 4%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social-media ul li a img {
+    width: 44%;
+}
+
+
+/* =========== ========= =========== shake animation / banner wahtasppp icon =========== ============ ============= */
+.get-instant-wp:hover .shake {
+    animation: shake 0.3s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+
+
+
+  .fixed-btn {
+    width: 58px;
+    display: inline-block;
+    position: fixed;
+    bottom: 230px;
+    right: 10px;
+    z-index: 999;
+}
+.stickey-contact .whatsapp a{
+    display: block !important;
+}
+.customer {
+    bottom: 138px;
+    width: 71px;
+}
+
+.auto-shake {
+    animation: shake 1.5s infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+
+
+
+
